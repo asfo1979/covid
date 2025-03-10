@@ -1,0 +1,28 @@
+type: md
+title: Equilibrium simulations of the glycosylated SARS-Cov-2 ancestral spike
+description: >
+    Equilibrium MD simulation of the
+    glycosylated and cleaved at the furin site ectodomain of the SARS-CoV-2
+    ancestral spike in the locked conformation (with linoleate bound to the
+    fatty-acid binding site).
+
+creator: A.S.F. Oliveira
+organization: University of Bristol
+lab:  Oliveira and Mulholland Labs
+proteins:
+    - spike
+files:
+    - https://molssi-bioexcel-covid-19-structure-therapeutics-hub.s3.amazonaws.com/MulhollandGroup/equilibrium_glycosylated_spike/equilibrium_simuls.tar.gz
+trajectory: https://molssi-bioexcel-covid-19-structure-therapeutics-hub.s3.amazonaws.com/MulhollandGroup/equilibrium_glycosylated_spike/equilibrium_simuls.tar.gz
+structures:
+    - https://www.rcsb.org/structure/7JJI
+size: 5.2 GB
+length: 3 replicates, 750 ns each
+ensemble: NPT
+temperature: 310
+pressure: 1
+solvent: water
+forcefields:
+    - CHARMM36m
+references:
+    - "Oliveira, ASF et al. “Allosteric modulation by the fatty acid site in the glycosylated SARS-CoV-2 spike” 2024, eLife (DOI:10.7554/eLife.97313.1)"
